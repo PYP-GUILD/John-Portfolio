@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact Uduka John Divine">
+  <title>Contact | Uduka John Divine</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Uduka John</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <noscript class="no-js-banner">JavaScript is disabled in your browser. The contact form will not submit without JavaScript.</noscript>
+  <main id="main-content" class="container contact-page">
+    <h1>Contact</h1>
+
+    <!--
+      To send form submissions to your email use a service like Formspree.
+      1) Create a form endpoint at Formspree (https://formspree.io/) or similar.
+      2) Paste the endpoint URL into the form's data-endpoint attribute below.
+      If no endpoint is provided the form will fall back to opening the user's mail client (mailto:).
+    -->
+    <form id="contact-form" class="contact-form" method="post" action="#" data-endpoint="">
+      <input type="hidden" name="_subject" value="Portfolio contact form">
+      <label>
+        Name
+        <input name="name" type="text" placeholder="Your name" required>
+      </label>
+
+      <label>
+        Email
+        <input name="email" type="email" placeholder="you@example.com" required>
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" placeholder="Your message" required></textarea>
+      </label>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Email: <a href="mailto:johnuduka7@gmail.com">johnuduka7@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/johnuduka-igtm" target="_blank" rel="noopener">johnuduka-igtm</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact me</h3>
+        <p>+234 08137422969</p>
+        <p>Udukajohn7@gmail.com</p>
+           <p>johnuduka-igtm</p>
+      </div>
+    <div class="container footer-bottom">© <span id="year-3"></span> All rights reserved</div>
+  </footer>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>

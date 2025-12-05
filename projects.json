@@ -1,0 +1,36 @@
+[
+	{
+		"id": "project-1",
+		"title": "Responsive Website",
+		"image": "sss.jpeg",
+		"alt": "Screenshot of responsive website",
+		"description": "A responsive website built with HTML and CSS. Learned to structure layouts using Flexbox and CSS Grid.",
+		"tech": ["HTML", "CSS"]
+	},
+	{
+		"id": "project-2",
+		"title": "Python",
+		"image": "fff.jpeg",
+		"alt": "Screenshot of Python ",
+		"description": "A small Python script to analyze CSV files and produce summary reports.",
+		"tech": ["Python"]
+	}
+	,
+
+	{
+		"id": "project-4",
+		"title": " Graphic design/ canva",
+		"image": "ggg.jpeg",
+		"alt": "Screenshot of Graphic design/ canva",
+		"description": "A simple Flask-based API to serve project metadata and images; includes basic endpoints, JSON responses, and deployment notes.",
+		"tech": ["Graphic design/ canva"]
+	},
+	{
+		"id": "project-5",
+		"title": "Wireframe ",
+		"image": "ddd.jpeg",
+		"alt": "Screenshot of Wireframe ",
+		"description": "An interactive data visualization built with Chart.js to explore CSV datasets and display interactive charts and summaries.",
+		"tech": ["Wireframe"]
+	}
+]
